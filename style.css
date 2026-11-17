@@ -472,3 +472,68 @@ footer p {
     right: 15px;
   }
 }
+
+/* PREMIUM HOME BANNER */
+
+.hero {
+  background: linear-gradient(135deg, #071c32, #1769aa);
+  padding: 85px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin: 15px 0;
+  color: white;
+}
+
+.hero p {
+  max-width: 750px;
+  margin: 0 auto 25px;
+  line-height: 1.8;
+}
+
+.hero-features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+  color: #eaf4ff;
+  font-weight: bold;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+/* GOOGLE MAP */
+
+.map-section {
+  background: #f3f7fc;
+}
+
+.map-box {
+  max-width: 950px;
+  margin: 25px auto 0;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.map-box iframe {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 29px;
+  }
+
+  .hero-features {
+    gap: 12px;
+    font-size: 13px;
+  }
+}
