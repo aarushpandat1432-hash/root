@@ -1,365 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Smart Tech Solutions | Faridabad</title>
-
-<meta name="description" content="Smart Tech Solutions Faridabad - SS Dustbins, Shoe Racks, Sanitary Pad Vending Machines and Bluefrost Water Coolers.">
-<meta name="keywords" content="Smart Tech Solutions, SS Dustbin, Shoe Rack, Water Cooler, Sanitary Pad Vending Machine, Faridabad">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#102a43">
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Tech Solutions | Faridabad</title>
+  <meta name="description" content="Smart Tech Solutions Faridabad - SS Dustbins, Shoe Racks, Sanitary Napkin Vending Machines, Incinerators, Cloth Bag Vending Machines and GI Water Coolers.">
+  <meta name="keywords" content="Smart Tech Solutions, SS Dustbin, Shoe Rack, GI Water Cooler, Sanitary Napkin Vending Machine, Toilet Feedback Machine, Incinerator, Cloth Bag Vending Machine, Faridabad">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#102a43">
+  <style>
+    :root{--navy:#102a43;--blue:#1769aa;--light:#f3f7fb;--ink:#243b53;--muted:#627d98;--green:#16834a;--white:#fff;--shadow:0 12px 30px rgba(16,42,67,.10)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 3px 16px rgba(16,42,67,.08)}.header{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-weight:900;letter-spacing:.5px;color:var(--navy);font-size:20px;line-height:1.05}.logo span{color:var(--blue)}.logo small{display:block;font-size:10px;letter-spacing:3px;margin-top:5px}.nav{display:flex;align-items:center;gap:24px}.nav a{font-weight:700;font-size:14px}.nav a:hover{color:var(--blue)}.menu-btn{display:none;border:0;background:var(--navy);color:white;border-radius:8px;padding:9px 13px;font-size:20px}
+    .hero{padding:76px 0 66px;background:linear-gradient(115deg,#102a43 0%,#1769aa 100%);color:white}.hero .tag{display:inline-block;background:rgba(255,255,255,.14);padding:7px 13px;border-radius:30px;font-size:12px;font-weight:800;letter-spacing:1px}.hero h1{font-size:clamp(34px,5vw,56px);line-height:1.12;margin:20px 0 14px;max-width:760px}.hero p{font-size:18px;max-width:720px;color:#e6f1fa}.hero-buttons{display:flex;flex-wrap:wrap;gap:12px;margin:25px 0}.btn,.call-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:8px;font-weight:800}.btn{background:#ffcc43;color:#172b4d}.call-btn{border:1px solid rgba(255,255,255,.7);color:#fff}.hero-features{display:flex;gap:22px;flex-wrap:wrap;font-weight:700;font-size:14px;color:#e6f1fa}
+    section{padding:58px 0}.section-title{text-align:center;color:var(--navy);font-size:clamp(26px,3vw,36px);margin:0 0 8px}.section-description{text-align:center;color:var(--muted);margin:0 auto 30px;max-width:700px}.products-section{background:var(--light)}.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.product-card{background:white;border-radius:16px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;border:1px solid #e6edf4}.product-image-wrap{height:245px;background:#f6f8fa;display:grid;place-items:center;overflow:hidden;padding:12px}.product-card img{width:100%;height:100%;object-fit:contain}.image-fallback{display:none;place-items:center;text-align:center;color:#829ab1;font-weight:700;padding:25px}.product-content{padding:19px;display:flex;flex-direction:column;flex:1}.product-card h3{font-size:19px;color:var(--navy);line-height:1.3;margin:0 0 8px}.product-card p{color:var(--muted);font-size:14px;margin:0 0 10px}.specs{padding-left:18px;margin:0 0 13px;color:#486581;font-size:13px}.price{font-size:24px;color:var(--green);font-weight:900;margin-top:auto}.gst-note{font-size:12px!important;margin:0!important}.total{font-size:14px;font-weight:800;color:var(--navy);margin:4px 0 14px}.product-card .btn{background:var(--blue);color:#fff;width:100%;margin-top:4px}.product-card .btn:hover{background:var(--navy)}
+    .about-section{background:#fff}.about-box{max-width:850px;margin:22px auto 0;text-align:center;background:var(--light);padding:28px;border-radius:14px}.map-box{overflow:hidden;border-radius:14px;box-shadow:var(--shadow)}.map-box iframe{display:block;width:100%;height:350px;border:0}.address{text-align:center;margin-top:14px;color:var(--muted)}
+    .contact-section{background:var(--light)}.contact-box{max-width:700px;margin:24px auto 0;background:white;padding:28px;border-radius:14px;box-shadow:var(--shadow);text-align:center}.contact-box p{margin:8px 0}.contact-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}.contact-actions .btn{background:var(--blue);color:white}.contact-actions .call-btn{background:var(--navy);color:white;border:0}
+    footer{background:#0b1f33;color:#d9e2ec;text-align:center;padding:30px 15px;font-size:13px}footer h3{color:white;margin:0 0 5px;letter-spacing:1px}.whatsapp-btn{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:50%;background:#20b85a;color:#fff;display:grid;place-items:center;font-weight:900;box-shadow:0 5px 18px rgba(0,0,0,.22);z-index:30}
+    @media(max-width:900px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{gap:14px}}
+    @media(max-width:650px){.header{min-height:66px}.menu-btn{display:block}.nav{display:none;position:absolute;left:0;right:0;top:66px;background:#fff;padding:15px 4%;box-shadow:0 8px 15px rgba(16,42,67,.12);flex-direction:column;align-items:flex-start}.nav.open{display:flex}.hero{padding:54px 0}.hero p{font-size:16px}.hero-features{gap:10px;flex-direction:column}.products{grid-template-columns:1fr}.product-image-wrap{height:260px}section{padding:44px 0}.contact-box{padding:20px}}
+  </style>
 </head>
-
 <body>
-
-<!-- HEADER -->
-
 <header>
   <div class="container header">
-
-    <a class="logo" href="#home">
-      SMART <span>TECH</span>
-      <small>SOLUTIONS</small>
-    </a>
-
-    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
-
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#products">Products</a>
-      <a href="#about">About</a>
-      <a href="#location">Location</a>
-      <a href="#contact">Contact</a>
+    <a class="logo" href="#home">SMART <span>TECH</span><small>SOLUTIONS</small></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#location">Location</a><a href="#contact">Contact</a>
     </nav>
-
   </div>
 </header>
-
 <main>
+  <section class="hero" id="home"><div class="container">
+    <span class="tag">SMART PRODUCTS • RELIABLE SERVICE</span>
+    <h1>Smart Products. Smart Solutions.</h1>
+    <p>Explore practical products for hygiene, waste management and everyday utility needs — backed by responsive customer support.</p>
+    <div class="hero-buttons"><a class="btn" href="#products">Explore Products</a><a class="call-btn" href="https://wa.me/918010292729" target="_blank" rel="noopener">WhatsApp Enquiry</a></div>
+    <div class="hero-features"><span>✓ Quality Products</span><span>✓ Reliable Service</span><span>✓ Customer Support</span></div>
+  </div></section>
 
-<!-- HOME BANNER -->
-
-<section class="hero" id="home">
-  <div class="container">
-
-    <span class="tag">WELCOME TO SMART TECH SOLUTIONS</span>
-
-    <h2>Smart Products. Smart Solutions.</h2>
-
-    <p>
-      Your Trusted Partner for Quality Products,
-      SS Dustbins, Shoe Racks, Sanitary Pad Vending
-      Machines and Bluefrost Water Coolers.
-    </p>
-
-    <div class="hero-buttons">
-
-      <a class="btn" href="#products">Explore Products</a>
-
-      <a class="call-btn"
-         href="https://wa.me/918010292729"
-         target="_blank"
-         rel="noopener">
-         Contact Us
-      </a>
-
-    </div>
-
-    <div class="hero-features">
-      <span>✓ Quality Products</span>
-      <span>✓ Reliable Service</span>
-      <span>✓ Customer Support</span>
-    </div>
-
-  </div>
-</section>
-
-<!-- GOOGLE MAP -->
-
-<section class="map-section" id="location">
-  <div class="container">
-
-    <h2 class="section-title">Visit Our Store</h2>
-
-    <p class="section-description">
-      Find Smart Tech Solutions, Faridabad
-    </p>
-
-    <div class="map-box">
-
-      <iframe
-        src="https://www.google.com/maps?q=Smart+Tech+Solutions+Sector+74+Mirzapur+Faridabad+Haryana&output=embed"
-        width="100%"
-        height="350"
-        style="border:0;"
-        loading="lazy"
-        allowfullscreen>
-      </iframe>
-
-    </div>
-
-    <p style="text-align:center; margin-top:15px;">
-      Ballabgarh Bypass Road, Sector 74, Mirzapur,
-      Near Lords Cricket Ground, Faridabad, Haryana.
-    </p>
-
-  </div>
-</section>
-
-<!-- PRODUCTS -->
-
-<section class="products-section" id="products">
-  <div class="container">
-
+  <section class="products-section" id="products"><div class="container">
     <h2 class="section-title">Our Products</h2>
-
-    <p class="section-description">
-      Explore our quality products and smart solutions.
-    </p>
-
+    <p class="section-description">Explore our product range, specifications and prices. All prices below are before GST unless the total is specified.</p>
     <div class="products">
 
-      <!-- SS DUSTBIN -->
+      <article class="product-card"><div class="product-image-wrap"><img src="ss-dustbin.png" alt="Stainless steel dustbin" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="image-fallback">SS Dustbin<br>Product photo</div></div><div class="product-content"><h3>SS Dustbin</h3><p>High-quality stainless steel dustbins. Multiple sizes available.</p><ul class="specs"><li>Material: Stainless Steel</li><li>Multiple sizes available</li></ul><div class="price">₹3,600</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹4,248 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20SS%20Dustbin." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-      <div class="product-card">
+      <article class="product-card"><div class="product-image-wrap"><img src="vending-machine.jpg" alt="Sanitary pad vending machine"></div><div class="product-content"><h3>Sanitary Pad Vending Machine</h3><p>Coin-operated napkin vending machine for schools, colleges, offices and public places.</p><ul class="specs"><li>Manual coin-operated model</li><li>Insert coin and rotate the knob to collect a napkin</li></ul><div class="price">₹6,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹7,080 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Sanitary%20Pad%20Vending%20Machine." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <img src="ss-dustbin.png"
-             alt="Stainless Steel SS Dustbin">
+      <article class="product-card"><div class="product-image-wrap"><img src="shoe-rack.png" alt="Shoe rack" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="image-fallback">Shoe Rack<br>Product photo</div></div><div class="product-content"><h3>Shoe Rack</h3><p>Strong and durable shoe racks for homes, offices and institutions.</p><ul class="specs"><li>Durable construction</li><li>Suitable for homes and institutions</li></ul><div class="price">₹10,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹11,800 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Shoe%20Rack." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <h3>SS Dustbin</h3>
+      <article class="product-card"><div class="product-image-wrap"><img src="water-cooler.png" alt="GI water cooler" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="image-fallback">GI Water Cooler<br>Product photo</div></div><div class="product-content"><h3>GI Water Cooler</h3><p>Water cooler solution. Contact us for model and configuration details.</p><ul class="specs"><li>GI body</li><li>Model details available on enquiry</li></ul><div class="price">₹30,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹35,400 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20GI%20Water%20Cooler." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <p>
-          High quality stainless steel dustbins.
-          Multiple sizes available.
-        </p>
+      <article class="product-card"><div class="product-image-wrap"><img src="automatic-vending-50.png" alt="Automatic sanitary napkin vending machine 50 capacity"></div><div class="product-content"><h3>Automatic Sanitary Napkin Vending Machine</h3><p>Automatic vending machine for dispensing sanitary napkins.</p><ul class="specs"><li>Capacity: 50 napkins</li><li>Type: Automatic</li></ul><div class="price">₹5,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹5,900 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Automatic%2050%20Capacity%20Vending%20Machine." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <div class="price">₹3,300</div>
+      <article class="product-card"><div class="product-image-wrap"><img src="toilet-feedback-machine.png" alt="Toilet feedback machine"></div><div class="product-content"><h3>Toilet Feedback Machine</h3><p>Fully automatic feedback unit with Excellent, Clean and Dirty response buttons.</p><ul class="specs"><li>Type: Fully Automatic</li><li>Feedback buttons: Excellent / Clean / Dirty</li></ul><div class="price">₹2,500</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹2,950 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Toilet%20Feedback%20Machine." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <p class="gst-note">Base Price + 18% GST</p>
+      <article class="product-card"><div class="product-image-wrap"><img src="napkin-incinerator-50.png" alt="Sanitary napkin incinerator"></div><div class="product-content"><h3>Sanitary Napkin Incinerator</h3><p>Machine for disposal of used sanitary napkins.</p><ul class="specs"><li>Burning capacity: 50 pads per day</li><li>Electric operation</li></ul><div class="price">₹3,700</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹4,366 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%2050%20Pads%20Per%20Day%20Sanitary%20Napkin%20Incinerator." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <p class="final-price">
-          Total: ₹3,894 (Including GST)
-        </p>
+      <article class="product-card"><div class="product-image-wrap"><img src="manual-vending-100.png" alt="Manual sanitary napkin vending machine 100 capacity"></div><div class="product-content"><h3>Manual Sanitary Napkin Vending Machine</h3><p>Coin-operated machine. Insert a ₹5 coin, rotate the knob 360° and collect a napkin.</p><ul class="specs"><li>Capacity: 100 napkins</li><li>Type: Manual</li></ul><div class="price">₹6,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹7,080 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Manual%20100%20Capacity%20Vending%20Machine." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-        <a class="btn"
-           href="https://wa.me/918010292729?text=I%20want%20to%20order%20SS%20Dustbin."
-           target="_blank"
-           rel="noopener">
-           Order on WhatsApp
-        </a>
+      <article class="product-card"><div class="product-image-wrap"><img src="free-vending-100.png" alt="Fully automatic free vending machine 100 capacity"></div><div class="product-content"><h3>Fully Automatic Free Vending Machine</h3><p>Press the button to dispense a sanitary napkin.</p><ul class="specs"><li>Capacity: 100 napkins</li><li>Type: Fully Automatic</li><li>Free-vend operation</li></ul><div class="price">₹6,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹7,080 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Fully%20Automatic%20Free%20Vending%20Machine." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-      </div>
+      <article class="product-card"><div class="product-image-wrap"><img src="solid-waste-incinerator-10kg.png" alt="Solid waste incinerator 10 kg per day"></div><div class="product-content"><h3>Solid Waste Incinerator</h3><p>Solid waste incineration unit for suitable waste-management applications.</p><ul class="specs"><li>Burning capacity: 10 kg per day</li></ul><div class="price">₹37,000</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹43,660 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%2010%20Kg%20Per%20Day%20Solid%20Waste%20Incinerator." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
-      <!-- SANITARY PAD VENDING MACHINE -->
-
-      <div class="product-card">
-
-        <img src="vending-machine.jpg"
-             alt="Sanitary Pad Vending Machine">
-
-        <h3>Sanitary Pad Vending Machine</h3>
-
-        <p>
-          Reliable vending machines for schools,
-          colleges, offices and public places.
-        </p>
-
-        <div class="price">₹2,600</div>
-
-        <p class="gst-note">Base Price + 18% GST</p>
-
-        <p class="final-price">
-          Total: ₹3,068 (Including GST)
-        </p>
-
-        <a class="btn"
-           href="https://wa.me/918010292729?text=I%20want%20Sanitary%20Pad%20Vending%20Machine."
-           target="_blank"
-           rel="noopener">
-           Order on WhatsApp
-        </a>
-
-      </div>
-
-      <!-- SHOE RACK -->
-
-      <div class="product-card">
-
-        <img src="shoe-rack.png"
-             alt="Shoe Rack">
-
-        <h3>Shoe Rack</h3>
-
-        <p>
-          Strong and durable shoe racks
-          for homes, offices and institutions.
-        </p>
-
-        <div class="price">₹4,000</div>
-
-        <p class="gst-note">Base Price + 18% GST</p>
-
-        <p class="final-price">
-          Total: ₹4,720 (Including GST)
-        </p>
-
-        <a class="btn"
-           href="https://wa.me/918010292729?text=I%20want%20to%20order%20Shoe%20Rack."
-           target="_blank"
-           rel="noopener">
-           Order on WhatsApp
-        </a>
-
-      </div>
-
-      <!-- BLUEFROST WATER COOLER -->
-
-      <div class="product-card featured">
-
-        <img src="water-cooler.png"
-             alt="Bluefrost Water Cooler">
-
-        <span class="new-tag">FEATURED PRODUCT</span>
-
-        <h3>Bluefrost Water Cooler</h3>
-
-        <p>
-          Hot, Cold and Normal water cooler solutions.
-        </p>
-
-        <div class="price">₹16,000</div>
-
-        <p class="gst-note">Base Price + 18% GST</p>
-
-        <p class="final-price">
-          Total: ₹18,880 (Including GST)
-        </p>
-
-        <a class="btn"
-           href="https://wa.me/918010292729?text=I%20want%20to%20order%20Water%20Cooler."
-           target="_blank"
-           rel="noopener">
-           Order on WhatsApp
-        </a>
-
-      </div>
+      <article class="product-card"><div class="product-image-wrap"><img src="cloth-bag-vending-100.png" alt="Cloth bag vending machine 100 capacity"></div><div class="product-content"><h3>Cloth Bag Vending Machine</h3><p>Vending machine for dispensing reusable cloth bags as an alternative to single-use plastic bags.</p><ul class="specs"><li>Capacity: 100 bags</li><li>Type: Fully Automatic</li></ul><div class="price">₹12,500</div><p class="gst-note">Base price + 18% GST</p><div class="total">Total: ₹14,750 (Including GST)</div><a class="btn" href="https://wa.me/918010292729?text=I%20want%20details%20for%20Cloth%20Bag%20Vending%20Machine." target="_blank" rel="noopener">Enquire on WhatsApp</a></div></article>
 
     </div>
-  </div>
-</section>
+  </div></section>
 
-<!-- ABOUT -->
+  <section class="about-section" id="about"><div class="container"><h2 class="section-title">About Smart Tech Solutions</h2><div class="about-box"><p>Welcome to Smart Tech Solutions. We provide practical products for hygiene, waste management and everyday utility needs, including stainless steel dustbins, shoe racks, water coolers, vending machines and incinerators. Our goal is to provide quality products and reliable customer support.</p></div></div></section>
 
-<section class="about-section" id="about">
-  <div class="container">
+  <section id="location"><div class="container"><h2 class="section-title">Visit Our Store</h2><p class="section-description">Find Smart Tech Solutions, Faridabad</p><div class="map-box"><iframe src="https://www.google.com/maps?q=Smart+Tech+Solutions+Sector+74+Mirzapur+Faridabad+Haryana&output=embed" loading="lazy" allowfullscreen title="Smart Tech Solutions location map"></iframe></div><p class="address">Ballabgarh Bypass Road, Sector 74, Mirzapur, Near Lords Cricket Ground, Faridabad, Haryana.</p></div></section>
 
-    <h2 class="section-title">About Smart Tech Solutions</h2>
-
-    <div class="about">
-
-      <p>
-        Welcome to Smart Tech Solutions.
-        We provide quality products including
-        stainless steel dustbins, shoe racks,
-        sanitary pad vending machines and
-        Bluefrost water coolers.
-
-        Our goal is to provide quality products
-        and reliable customer support.
-      </p>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- CONTACT -->
-
-<section class="contact-section" id="contact">
-  <div class="container">
-
-    <h2 class="section-title">Contact Us</h2>
-
-    <div class="contact">
-
-      <p>
-        <strong>Business:</strong>
-        Smart Tech Solutions
-      </p>
-
-      <p>
-        <strong>Phone:</strong>
-        <a href="tel:+918010292729">8010292729</a>
-      </p>
-
-      <p>
-        <strong>Address:</strong>
-        Ballabgarh Bypass Road, Sector 74,
-        Mirzapur, Near Lords Cricket Ground,
-        Faridabad, Haryana.
-      </p>
-
-      <a class="btn"
-         href="https://wa.me/918010292729"
-         target="_blank"
-         rel="noopener">
-         WhatsApp Us
-      </a>
-
-      <a class="call-btn"
-         href="tel:+918010292729">
-         Call Us
-      </a>
-
-      <a class="btn"
-         href="https://www.google.com/maps/search/?api=1&query=Smart+Tech+Solutions+Sector+74+Mirzapur+Faridabad"
-         target="_blank"
-         rel="noopener">
-         Find Us on Map
-      </a>
-
-    </div>
-  </div>
-</section>
-
+  <section class="contact-section" id="contact"><div class="container"><h2 class="section-title">Contact Us</h2><div class="contact-box"><p><strong>Business:</strong> Smart Tech Solutions</p><p><strong>Phone:</strong> <a href="tel:+918010292729">8010292729</a></p><p><strong>Address:</strong> Ballabgarh Bypass Road, Sector 74, Mirzapur, Near Lords Cricket Ground, Faridabad, Haryana.</p><div class="contact-actions"><a class="btn" href="https://wa.me/918010292729" target="_blank" rel="noopener">WhatsApp Us</a><a class="call-btn" href="tel:+918010292729">Call Us</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Smart+Tech+Solutions+Sector+74+Mirzapur+Faridabad" target="_blank" rel="noopener">Find Us on Map</a></div></div></div></section>
 </main>
-
-<!-- FOOTER -->
-
-<footer>
-
-  <h3>SMART TECH SOLUTIONS</h3>
-
-  <p>Quality Products | Trusted Service</p>
-
-  <p>Ballabgarh Bypass Road, Faridabad, Haryana, India</p>
-
-  <p>Phone: 8010292729</p>
-
-  <p>
-    © <span id="year">2026</span>
-    Smart Tech Solutions. All Rights Reserved.
-  </p>
-
-</footer>
-
-<!-- FLOATING WHATSAPP BUTTON -->
-
-<a class="whatsapp-btn"
-   href="https://wa.me/918010292729"
-   target="_blank"
-   rel="noopener"
-   aria-label="WhatsApp">
-   WA
-</a>
-
-<script src="script.js"></script>
-
+<footer><h3>SMART TECH SOLUTIONS</h3><p>Quality Products | Trusted Service</p><p>Ballabgarh Bypass Road, Faridabad, Haryana, India</p><p>Phone: 8010292729</p><p>© <span id="year">2026</span> Smart Tech Solutions. All Rights Reserved.</p></footer>
+<a class="whatsapp-btn" href="https://wa.me/918010292729" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const menuBtn=document.getElementById('menuBtn');
+  const nav=document.getElementById('nav');
+  menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.textContent=open?'✕':'☰';menuBtn.setAttribute('aria-expanded',String(open));});
+  nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.textContent='☰';menuBtn.setAttribute('aria-expanded','false');}));
+</script>
 </body>
 </html>
